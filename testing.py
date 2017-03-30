@@ -24,6 +24,7 @@ class FlaskTestCase(unittest.TestCase):
         resp = self.app.get('/hello/universe')
         self.assertEquals(resp.data, '"Hello Universe!"\n')
     
+
     def tearDown(self):
         pass
 
