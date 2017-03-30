@@ -8,11 +8,10 @@ api = Api(app)
 
 class HelloWorld(Resource):
     def get(self):
-        text = "Hello World!"
+        text = "Hello World2!"
         return text
 
 api.add_resource(HelloWorld, '/hello/world')
-
 
 if __name__ == '__main__':
     # Runn Flask
